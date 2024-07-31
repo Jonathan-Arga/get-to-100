@@ -1,0 +1,33 @@
+.Header {
+	display: grid;
+	position: sticky;
+
+	background-color: hsl(0, 0%, 17%);
+	border-radius: 12px;
+	border: 2px solid gray;
+
+	box-shadow: 0 0 12px 4px gray;
+	width: 20dvw;
+	height: min-content;
+	padding: 2dvh 3dvw;
+	margin: 1dvh 0;
+	margin-right: auto;
+	margin-left: auto;
+
+	justify-content: center;
+}
+.Header .headerButtons {
+	display: flex;
+	gap: 1dvw;
+}
+.headerLeaderboard {
+	width: max-content;
+	float: left;
+	text-align: center;
+}
+.headerLeaderboard ol li:first-child {
+	font-size: 25px;
+}
+.headerLeaderboard ol li:nth-child(2) {
+	font-size: 22px;
+}

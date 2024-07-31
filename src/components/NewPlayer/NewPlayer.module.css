@@ -1,0 +1,28 @@
+.newPlayerDialog {
+	background-color: rgb(37, 37, 37);
+
+	position: absolute;
+	box-shadow: 6px 6px 18px 0px white;
+	border: none;
+	border-radius: 12px;
+	width: 20dvw;
+	height: max-content;
+	padding: 2dvh 2dvw;
+}
+.newPlayerDialog::backdrop {
+	background: rgb(255, 255, 255);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(5px);
+}
+
+.newPlayerDialog input[type="text"] {
+	margin: 0.5dvh 0;
+}
+
+.newPlayerDialog a {
+	float: left;
+	user-select: none;
+}
+.newPlayerDialog a:hover {
+	cursor: pointer;
+}

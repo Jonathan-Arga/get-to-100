@@ -1,0 +1,22 @@
+.playerList {
+	list-style: none;
+	display: grid;
+	padding: 0;
+	margin: 1dvh 0;
+
+	width: 100dvw;
+	gap: 12px;
+	grid-template-columns: 1fr 1fr;
+}
+.playerList li {
+	display: flexbox;
+	width: 50dvw;
+	float: left;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.playerList li:nth-child(2n) {
+	float: right;
+}
