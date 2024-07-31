@@ -1,10 +1,8 @@
-import { useState } from "react";
-
-import styles from "./Header.module.css";
+import styles from './Header.module.css';
 
 export default function Header(props) {
 	return (
-		<>
+		<div className={styles.HeaderContainer}>
 			<div className={styles.headerLeaderboard}>
 				<ol>
 					{props.topPlayers.map((player) =>
@@ -29,6 +27,7 @@ export default function Header(props) {
 					</div>
 				)}
 			</header>
-		</>
+			<ul></ul>
+		</div>
 	);
 }

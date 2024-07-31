@@ -1,3 +1,13 @@
+.HeaderContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+	justify-items: center;
+	justify-content: center;
+	align-items: center;
+	gap: 1dvw;
+}
+
 .Header {
 	display: grid;
 	position: sticky;
@@ -11,9 +21,8 @@
 	height: min-content;
 	padding: 2dvh 3dvw;
 	margin: 1dvh 0;
-	margin-right: auto;
-	margin-left: auto;
 
+	justify-items: center;
 	justify-content: center;
 }
 .Header .headerButtons {
@@ -22,7 +31,6 @@
 }
 .headerLeaderboard {
 	width: max-content;
-	float: left;
 	text-align: center;
 }
 .headerLeaderboard ol li:first-child {

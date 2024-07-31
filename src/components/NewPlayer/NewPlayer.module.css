@@ -2,6 +2,12 @@
 	background-color: rgb(37, 37, 37);
 
 	position: absolute;
+
+	margin: 2dvh auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+
 	box-shadow: 6px 6px 18px 0px white;
 	border: none;
 	border-radius: 12px;
@@ -15,7 +21,7 @@
 	-webkit-backdrop-filter: blur(5px);
 }
 
-.newPlayerDialog input[type="text"] {
+.newPlayerDialog input[type='text'] {
 	margin: 0.5dvh 0;
 }
 
